@@ -1,0 +1,95 @@
+<ion-header>
+  <ion-toolbar>
+    <div class="bleib"><ion-title>Nachhilfe geben</ion-title></div>
+		<div class="circlee"><a href="http://www.firnbergschulen.at/" target="_blank"><img src="../../../assets/linkspictures/firnberg.jpeg" alt="eduvidual"></a></div>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <form>
+    <div class="form-group">
+      <label>Unterrichtsfach: </label> <select class="form-control" name="selectbox_name">
+      <option>Klicke zum Auswählen</option>
+        <option value="Deutsch">
+          Deutsch
+        </option>
+  
+        <option value="Englisch">
+          Englisch
+        </option>
+      
+      <option value="Spanisch">
+          Spanisch
+        </option>
+      
+      <option value="Französisch">
+          Französisch
+        </option>
+      
+      <option value="Italienisch">
+          Italienisch
+        </option>
+      <option value="Rechnungswesen">
+          Rechnungswesen
+      </option>
+
+      <option value="Betriebswirtschaft">
+        Betriebswirtschaft
+      </option>
+
+      <option value="Volkswirtschaft">
+        Volkswirtschaft
+      </option>
+
+      <option value="Mathe">
+        Mathe
+      </option>
+      </select>
+    </div>
+
+
+    <div class="form-group">
+      <label>Name: </label> <input type="text" class="form-control" name="text_name" placeholder="Name">
+    </div>
+  
+    <div class="form-group">
+      <label>Klasse: </label> <input type="text" class="form-control" name="text_name" placeholder="Klasse">
+    </div>
+
+    
+    <div class="form-group">
+      <label>Preis: </label> <input type="text" class="form-control" name="text_name" placeholder="Preis">
+    </div>
+
+    <div class="form-group" routerLink="">
+      <input  type="submit" class="btn btn-primary" name="button_name" value="Angebot veröffentlichen:)">
+    </div>
+  
+  </form>
+
+  
+  
+
+  <div routerLink="" class="myButton">Hier gehts zurück zur Startseite :)</div>
+  <div>
+    <ion-footer class="footer">
+        <ion-tabs>
+          <ion-tab-bar slot="bottom">
+            <ion-tab-button tab="notifications">
+            <ion-icon name="notifications-outline"></ion-icon>
+            <ion-label>Notifications</ion-label>
+            </ion-tab-button>
+          
+            <ion-tab-button tab="main">
+            <ion-icon name="home"></ion-icon>
+            <ion-label>Home</ion-label>
+            </ion-tab-button>
+          
+            <ion-tab-button tab="links">
+            <ion-icon name="link-outline"></ion-icon>
+            <ion-label>Links</ion-label>
+            </ion-tab-button>
+          </ion-tab-bar>
+          </ion-tabs>
+    </ion-footer>
+    </div>
+</ion-content>

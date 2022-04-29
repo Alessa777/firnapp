@@ -1,0 +1,9 @@
+<ion-header *ngIf="offer">
+	<ion-toolbar>
+		<ion-title>{{ offer.name }}</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="offer">
+	<p>{{ offer.price | currency:'EUR':true }}</p>
+</ion-content>

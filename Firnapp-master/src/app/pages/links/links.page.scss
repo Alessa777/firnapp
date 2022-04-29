@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+body {
+  background-color: lightgray;
+}
+
+h1 {
+	color: black;
+	font-family: Neusa Next Std;	
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+.circlee {
+	width: 80px;
+	height: 80px;
+	border-radius: none;
+	margin-bottom: 10px;
+    margin-top: 10px;
+	margin-left: 225px;
+    margin-right: 10px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.circlee {
+	width: 60px;
+	min-height: 3.4em;
+	top: 0;
+	position:fixed;
+	float: right;
+
+}
+.bleib {
+	margin-left: auto;
+    margin-right: auto;
+	float: right;
+
+}
